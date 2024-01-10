@@ -36,8 +36,7 @@ def fill(arr):
     for i in range(len(check)):
         if check[i] == 0:
             return i
-    return maximum+1
-
+    return maximum + 1
 
 
 input_n = int(input())
